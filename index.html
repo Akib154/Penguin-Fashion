@@ -26,6 +26,12 @@
             font-weight: 900;
             font-style: normal;
         }
+
+        .layout {
+            margin: 0px 400px;
+            padding: 0;
+            box-sizing: border-box;
+        }
     </style>
 </head>
 
@@ -33,7 +39,7 @@
     <nav>
 
     </nav>
-    <header class="bg-[#FFFBF0] mx-10 md:px-32 px-4 py-20">
+    <header class="bg-[#FFFBF0] md:px-32 px-4 py-20">
         <div class="flex flex-col md:flex-row justify-around items-center">
             <div class="space-y-3">
                 <h3 class="text-3xl uppercase font-bebas"><span class="text-[#FABE4C]">Be the Penguins</span> <br> of
@@ -57,7 +63,7 @@
         </div>
 
     </header>
-    <main class="max-w-7xl mx-10 md:mx-auto">
+    <main class="max-w-full mx-10 md:mx-10">
         <div>
             <div class="uppercase text-5xl text-[#363958] font-bebas py-12">
                 Woman Jacket
@@ -223,12 +229,12 @@
         </div>
 
     </main>
-    <footer class=" robot">
-        <div class="flex max-w-7xl mx-10 md:mx-auto">
-            <div class="bg-[#FFF]  w-1/2 ">
+    <footer class=" robot mx-10 my-40 layout">
+        <div class="flex flex-col-reverse md:flex-row mx-10">
+            <div class=" bg-[#FFF]  md:w-1/2 ">
                 <!-- info 1 -->
                 <div class="flex gap-10 my-10 bg-[#Fff] shadow-md p-5 rounded-2xl content-center">
-                    <img class="w-20" src="icons/house.png" alt="">
+                        <img class="w-20 " src="icons/house.png" alt="">
 
                     <div class="text-[#363958]">
                         <h2 class="text-2xl font-bold text-[#363958]">Find the Perfect Fit</h2>
@@ -259,14 +265,14 @@
                     </div>
                 </div>
             </div>
-        
+
 
             <!-- shopping photo -->
-            <div class="w-1/2">
-                <div class="relative w-full h-full flex ">
-                    <img class="w-[600px]  absolute "  src="images/shopping.png" alt="">
+            <div class=" w-[350px] mb-52 md:mb:0 md:w-1/2">
+                <div class="relative w-full h-full md:flex ">
+                    <img class="w-[600px] absolute" src="images/shopping.png" alt="">
                 </div>
-                
+
             </div>
         </div>
     </footer>
